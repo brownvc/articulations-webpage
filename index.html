@@ -1,0 +1,139 @@
+--- 
+redirect_from: articulations/
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Motion Annotation Programs (3DV 2020)</title>
+
+	<link rel="stylesheet" href="css/fonts.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="css/jht.css" type="text/css" charset="utf-8">
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23628422-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+
+<body style="max-width: none;">
+	<div class="right-column" style="max-width: 45em; margin: auto;; margin-top: 3em">
+
+		<h1><b>Motion Annotation Programs</b>: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections</h1>
+		
+        <p class="phototext" style="max-width: 45em;">
+
+        <a href="https://www.linkedin.com/in/xianghao-xu-8b1024a6/">Xianghao Xu</a>, <a href="http://davidcharatan.com/">David Charatan</a>, <a href="https://www.linkedin.com/in/sonia-raychaudhuri/">Sonia Raychaudhuri</a>, <a href="https://jianghanxiao.github.io/">Hanxiao Jiang</a>,<br> <a href="https://www.linkedin.com/in/mae-heitmann-770287118/">Mae Heitmann</a>, <a href="http://www.vovakim.com/">Vladimir Kim</a>, <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>, <br> <a href="http://msavva.github.io/">Manolis Savva</a>, <a href="https://angelxuanchang.github.io/">Angel X. Chang</a>, and <a href="https://dritchie.github.io/">Daniel Ritchie</a><br>
+		3DV 2020
+		</p>
+		
+		<p>
+		<img src="teaser_small.png" class="teaser-image" width="480px">
+		</p>
+		
+		<h2>Abstract</h2>
+		<p>
+            3D models of real-world objects are essential for many applications, including the creation of virtual environments for AI training. To mimic real-world objects in these applications, objects must be annotated with their kinematic mobilities. Annotating kinematic motions is time-consuming, and it is not well-suited to typical crowdsourcing workflows due to the significant domain expertise required. In this paper, we present a system that helps individual expert users rapidly annotate kinematic motions in large 3D shape collections. The organizing concept of our system is <i>motion annotation programs</i>: simple, re-usable procedural rules that generate motion for a given input shape. Our interactive system allows users to author these rules and quickly apply them to collections of functionally-related objects. Using our system, an expert annotated over 1000 joints in under 3 hours. In a user study, participants with no prior experience with our system were able to annotate motions 1.5x faster than with a baseline manual annotation tool.
+		</p>
+
+        
+		<h2>Presentation Video</h2>
+		
+		<video class="teaser-image" width="720px" controls poster="posterframe_comingsoon.png">
+			<source src="" type="video/mp4">
+		</video>
+		
+		<p>
+		<!-- <a href="">Video – 10 mins (MP4 _ MB)</a> -->
+        </p>
+
+		
+		<h2>Files</h2>
+		
+		<table style="min-width: 625px; margin: auto; text-align: center;">
+		<tbody>
+		<tr>
+			<td>
+				<a href="articulations_3dv2020.pdf"><img class="teaser-image" src="paper.png" width="180px"></a>
+			</td>
+			<td>
+				<a href="https://www.youtube.com/watch?v=OzcM-PCht0U&ab_channel=DavidCharatan"><img class="teaser-image" src="short_video_thumbnail.png" width="380px"></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Paper<br>
+				<a href="articulations_3dv2020.pdf">PDF 48 MB</a> | <a href="">arXiv</a>
+			</td>
+			<td>
+				Short Video<br>
+				<a href="https://www.youtube.com/watch?v=OzcM-PCht0U&ab_channel=DavidCharatan">YouTube</a>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+        
+        
+		<h2>Bibtex</h2>
+		<pre style="max-width: 700px; margin: auto;">@inproceedings{,<br>    author    = "Xianghao Xu, David Charatan, Sonia Raychaudhuri,</br>                 Hanxiao Jiang, Mae Heitmann, Vladimir Kim</br>                 Siddhartha Chaudhuri, Manolis Savva, Angel X. Chang,</br>                 and Daniel Ritchie",<br>    title     = "Motion Annotation Programs: A Scalable Approach to</br>                 Annotating Kinematic Articulations in Large 3D Shape</br>                 Collections",<br>    booktitle = "3DV",<br>    year      = "2020"<br>}</pre>
+        
+        <h2>Source Code</h2>
+
+		<p><a href="https://github.com/brownvc/articulations">Github</a></p>
+		
+		<p><a href="http://articulations.cs.brown.edu/">Web demo of articulation interface</a></p>
+
+
+		<h2>Acknowledgements</h2>
+		
+		<p>
+			We thank the anonymous reviewers for their helpful suggestions; we also thank the participants in our user study for volunteering their time. Michael Cosgrove, Grishka Barboy, and Hameed Abdul-Rashid helped with the development of an earlier version of our system.  Angel X. Chang is supported by the Canada CIFAR AI Chair program. Manolis Savva is supported by an NSERC Discovery Grant.
+		</p>
+		
+		<table style="min-width: 625px; margin: auto; text-align: center;">
+			<tbody>
+				<tr>
+					<td>
+						<img src="logos/BrownCSLogo.png" height=70px>
+                    </td>
+                    <td>
+						<img src="logos/sfu-logo.png" height=70px>
+					</td>
+					<td>
+						<img src="logos/adobe-logo.png" height=70px>
+					</td>
+					<td>
+						<img src="logos/IIT_Bombay_color_logo.png" height=70px>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- Little bit of space -->
+		<p></p>
+		
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-36966695-10', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+	</div>
+</body>

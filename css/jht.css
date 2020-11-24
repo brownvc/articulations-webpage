@@ -1,0 +1,150 @@
+body {
+    font-family: 'EB Garamond', 'Constantia', 'Georgia', serif;
+	font-size: 100%;
+	max-width: 65em;
+	color: #343434; /* Jet Black */
+	background-color: #FEFEFA; /* Baby Powder */
+	
+	/* Can't seem to get ligatures to work... */
+	-ms-font-feature-settings:     'smcp' 1, 'liga' 1;  /* IE10 */
+    -moz-font-feature-settings:    'smcp' 1, 'liga' 1;  /* Firefox */
+    -webkit-font-feature-settings: 'smcp' 1, 'liga' 1;  /* Chrome, Safari, Opera */
+    font-feature-settings:         'smcp' 1, 'liga' 1;  /* Future-proof! */ 
+}
+
+p {
+    font-size: 1em;
+	text-align: justify;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+	-ms-hyphens: auto;
+    hyphens: auto;
+}
+
+p.phototext {
+	font-size: 1.5em;
+	/*font-size: 2.2vw; /* If browser supports viewport units */
+	text-align: left;
+	vertical-align: center;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+	padding-left: auto;
+	padding-right: auto;
+	max-width: 550px;
+}
+
+p.blurbtext {
+	font-size: 1.25em;
+	/*font-size: 2.5vmin; /* If browser supports viewport units */
+	/*font-size: 1.5vmax; /* If browser supports viewport units */
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2 {
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+    padding-top: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    margin-left: 0em;
+}
+
+h3 {
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+    padding-top: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    margin-left: 0em;
+}
+
+.left-column {
+	border: none;
+	border-top: 2px solid #ddd;
+    padding-top: 0.2em;
+	margin-top: 3em;
+	
+	max-width: 15.25em;
+}
+
+.right-column {
+	border: none;
+	border-top: 2px solid #ddd;
+    padding-top: 0.2em;
+	margin-top: 3em;
+}
+
+.sc {
+font-family: 'EB Garamond SC', 'Constantia', 'Georgia', serif;
+font-style: normal;
+-moz-hyphens: none;
+-webkit-hyphens: none;
+-o-hyphens: none;
+-ms-hyphens: none;
+hyphens: none;
+letter-spacing: 1px;
+}
+
+td.table-date-year {
+	padding-right: 1em;
+	text-align: left;
+	vertical-align: top;
+}
+
+td.table-date-month {
+	padding-right: 0.5em;
+	text-align: left;
+	vertical-align: top;
+}
+
+td.table-date-day {
+	padding-right: 0.5em;
+	text-align: right;
+	vertical-align: top;
+}
+
+td.table-photo {
+	padding: 0em;
+	padding-right: 2em;
+}
+
+.teaser-image {
+	border: 1px solid #900020;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.youTubeContainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.youTubeVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+td.pub-image {padding-right: 0.5em; padding-top: 1em; padding-bottom: 1em; vertical-align: top}
+td.pub-text {padding-top: 1em; padding-bottom: 1em; vertical-align: top; color: #343434}
+/*div.title::before {content: ""}
+div.title::after {content: ""}*/
+div.title {font-weight: bold}
+div.author {}
+div.pub {font-style: italic}
+div.date {}
+div.webpage {}
+
+a:link {color: #900020; text-decoration: none; }
+a:active {color: #673147; text-decoration: underline; }
+a:visited {color: #673147; text-decoration: none; }
+a:hover {color: #900020; text-decoration: underline; }
